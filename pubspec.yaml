@@ -1,0 +1,30 @@
+name: powerui
+description: "A power ui clean example"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  injector: ^3.0.0
+  xml2json: ^6.2.2
+  http: ^0.13.5
+  connectivity: ^3.0.6
+  fl_chart: ^0.67.0
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
